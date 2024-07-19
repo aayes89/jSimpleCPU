@@ -97,7 +97,11 @@ public class JSimpleCPU {
             int instruction = memory.getOrDefault(programCounter, 0);
             byte opcode = (byte) (instruction >> 16);
             int operand = instruction & 0xFFFF;
-
+            
+            if (operand < 0 || operand > 0xFFFF) {
+                throw new IllegalArgumentException("Operando fuera de rango: " + operand);
+            }
+            
             switch (opcode) {
                 case LOAD:
                     accumulator = memory.getOrDefault(operand, 0);
