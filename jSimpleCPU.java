@@ -4,6 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
 
+/*
+* Create by Slam
+*/
+
 public class JSimpleCPU {
 
     // Definición de registros y memoria
