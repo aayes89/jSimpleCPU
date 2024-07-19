@@ -1,5 +1,16 @@
 # jSimpleCPU
 Implementación de una CPU en Java con manejo de varios tipos de instrucciones.
+# SimpleCPU
+Versión mejorada y depurada de la implementación anterior.
+<br><b>Operaciones:</b>
+* suma (ADD)
+* resta (SUB)
+* multiplicación (MULT)
+* división (DIV)
+* manejo de pila (PUSH,POP,POPA)
+* operaciones con registros (MOV, INC, DEC, LOOP, GO)
+  
+</br>
 # Componentes principales
 <b>Registros y Memoria:</b>
 
