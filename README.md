@@ -36,7 +36,7 @@ Las instrucciones de desvío (JMP, JZ, BCC, BCS, etc.) modifican el programCount
 
 Ejecuta ejemplos de programas simples para probar la funcionalidad de la CPU.
 
-# Mejoras
+# Pendientes y Mejoras
 <b>Documentación:</b>
 
 Agregar comentarios y documentación más detallada sobre cada instrucción y el flujo general de la CPU.
